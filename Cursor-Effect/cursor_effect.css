@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+span {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(baby\ image.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    pointer-events: none;
+}
