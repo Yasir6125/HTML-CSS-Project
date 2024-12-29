@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.circle {
+    height: 20px;
+    width: 20px; 
+    border-radius: 50%; 
+    background: red ;
+    animation: x-axis 4s infinite linear;
+}
+
+.wrapper{
+    animation: Y-axis 1s infinite linear;
+}
+
+@keyframes x-axis {
+    50% {
+        transform: translateX(400px);
+        background: yellow;
+    }
+}
+
+@keyframes Y-axis {
+    50% {
+        transform: translateY(200px);
+    }
+}
